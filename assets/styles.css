@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 h2.name {
-    color: #f08c8c;
+    color: #FEFF80;
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 h2.intro {
+    color: #FCA083;
     display: inline;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 div.mainIntro {
@@ -17,4 +24,23 @@ div.mainIntro {
 
 a.viewWork {
     margin-top: 2rem;
+    border-radius: 15px;
+    color: #efefef;
+}
+
+a.viewWork:hover {
+    background-color: rgb(191, 255, 250);
+    color: rgb(236, 172, 255);
+}
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: #7CB4B8;
+  background-size: cover;
+}
+canvas{
+  filter: blur(2px);
 }
