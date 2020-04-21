@@ -1,0 +1,20 @@
+h2.name {
+    color: #f08c8c;
+}
+
+h2.intro {
+    display: inline;
+}
+
+div.mainIntro {
+    position: absolute;
+    margin: auto;
+    top: 40vh;
+    bottom: 60vh;
+    left: 0;
+    right: 0;
+}
+
+a.viewWork {
+    margin-top: 2rem;
+}
