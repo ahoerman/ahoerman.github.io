@@ -29,7 +29,7 @@ a.viewWork {
 }
 
 a.viewWork:hover {
-    background-color: rgb(191, 255, 250);
+    background-color: rgb(209, 255, 251);
     color: rgb(236, 172, 255);
 }
 
@@ -37,10 +37,16 @@ body,
 html {
   margin: 0px;
   padding: 0px;
-  position: fixed;
   background-color: #7CB4B8;
-  background-size: cover;
 }
-canvas{
-  filter: blur(2px);
+canvas {
+    filter: blur(2px);
+    background-size: 100vh 100vw;
+    position: absolute;
+}
+
+nav {
+    position: absolute;
+    top: 100vh;
+    font-family: 'Ubuntu', sans-serif;
 }
