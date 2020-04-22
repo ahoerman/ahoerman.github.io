@@ -38,8 +38,12 @@ html {
   margin: 0px;
   padding: 0px;
   background-color: #7CB4B8;
-  scroll-behavior: smooth;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 canvas {
     filter: blur(2px);
     background-size: 100vh 100vw;
