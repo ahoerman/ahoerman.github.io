@@ -29,7 +29,7 @@ a.viewWork {
 }
 
 a.viewWork:hover {
-    background-color: rgb(209, 255, 251);
+    background-color: rgb(232, 255, 253);
     color: rgb(236, 172, 255);
 }
 
@@ -46,7 +46,20 @@ canvas {
 }
 
 nav {
+    background-color: rgb(209, 255, 251);
+}
+
+a.navbar {
+    color: #FCA083;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+div.lowerBody {
     position: absolute;
     top: 100vh;
-    font-family: 'Ubuntu', sans-serif;
+    background: #ffffff;
+    width: 100vw;
+    height: 100000px;
 }
+

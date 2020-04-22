@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +8,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="icon" type="image/png" href="assets/favicon.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
+
     <title>Abigail Hoerman</title>
 </head>
+
 <body>
     <canvas id="canvas"></canvas>
 
     <div class="container center mainIntro">
         <div class="col sm12">
             <h2 class="intro">
-                Hello, I'm </h2><h2 class="name">Abigail Hoerman</h2><h2 class="intro">.
-                </h2>
-                <br>
-                <h2 class="intro">
-                    I'm a full-stack web developer.
-                </h2>
-                <br>
-                <a href="#nav-wrapper" class="waves-effect btn-large btn-flat viewWork z-depth-3">View My Work    <i class="fas fa-arrow-down"></i></a>
-            </div>
+                Hello, I'm </h2>
+            <h2 class="name">Abigail Hoerman</h2>
+            <h2 class="intro">.
+            </h2>
+            <br>
+            <h2 class="intro">
+                I'm a full-stack web developer.
+            </h2>
+            <br>
+            <a href="#nav-wrapper" class="waves-effect btn-large btn-flat viewWork z-depth-3">View My Work <i class="fas fa-arrow-down"></i></a>
         </div>
+    </div>
 
-        <nav>
-            <div class="nav-wrapper" id="nav-wrapper">
-              <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="sass.html">About Me</a></li>
-                <li><a href="badges.html">Portfolio</a></li>
-                <li><a href="collapsible.html">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
+
+    
+    <div class="lowerBody">
         
-<script src="assets/js/background.js"></script>
+            <div id="scroller-anchor"></div> 
+            <div id="scroller">
+                <nav>
+                    <div class="nav-wrapper" id="nav-wrapper">
+                        <ul id="nav-mobile" class="left hide-on-med-and-down">
+                            <li><a href="#" class="navbar">About Me</a></li>
+                            <li><a href="#" class="navbar">Portfolio</a></li>
+                            <li><a href="#" class="navbar">Contact</a></li>
+                            <li><a href="#" class="navbar"><i class="fas fa-arrow-up"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+    <script src="assets/js/background.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript"> $(function(){moveScroller();});</script> 
 </body>
+
 </html>
