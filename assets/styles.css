@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+div.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 h2.name {
     color: #FEFF80;
     display: inline;
@@ -11,6 +16,27 @@ h2.intro {
     color: #FCA083;
     display: inline;
     font-family: 'Ubuntu', sans-serif;
+}
+
+h4.aboutMe {
+    color: #FCA083;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5rem;
+}
+
+h4.portfolio {
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5rem;
+    text-decoration: underline;
+}
+
+img.biopic {
+    border-radius: 100%;
+    height: 20rem;
+    width: 20rem;
+    border: 5px solid;
+    border-color: #FCA083;
 }
 
 div.mainIntro {
@@ -30,7 +56,7 @@ a.viewWork {
 
 a.viewWork:hover {
     background-color: rgb(232, 255, 253);
-    color: #FCA083;
+    color: rgb(153, 131, 252);
 }
 
 body,
@@ -52,10 +78,11 @@ canvas {
 
 nav {
     background-color: rgb(209, 255, 251);
+    z-index:1;
 }
 
 a.navbar {
-    color: #FCA083;
+    color: rgb(153, 131, 252);
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
 }
@@ -66,5 +93,14 @@ div.lowerBody {
     background: #ffffff;
     width: 100vw;
     height: 100000px;
+}
+
+div.flow-text {
+    color: #578285;
+}
+
+div.portfolio {
+    background: #FCA083;
+    width: 100vw;
 }
 
