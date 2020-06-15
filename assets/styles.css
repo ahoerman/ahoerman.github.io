@@ -78,7 +78,7 @@ canvas {
 
 nav {
     background-color: rgb(209, 255, 251);
-    z-index:1;
+    z-index:5;
 }
 
 a.navbar {
@@ -104,3 +104,15 @@ div.portfolio {
     width: 100vw;
 }
 
+div.PortfolioProject {
+    z-index: 0;
+}
+
+a.ProjectLink {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.FinalProjectDiv {
+    margin-bottom: 5rem;
+}
