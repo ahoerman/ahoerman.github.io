@@ -24,6 +24,12 @@ h4.aboutMe {
     margin: 5rem;
 }
 
+h4.Contact {
+    color: #FCA083;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5rem;
+}
+
 h4.portfolio {
     color: #FFFFFF;
     font-family: 'Ubuntu', sans-serif;
@@ -92,7 +98,7 @@ div.lowerBody {
     top: 100vh;
     background: #ffffff;
     width: 100vw;
-    height: 100000px;
+    height: 2500px;
 }
 
 div.flow-text {
@@ -114,5 +120,14 @@ a.ProjectLink {
 }
 
 div.FinalProjectDiv {
+    margin-bottom: 5rem;
+}
+
+a.contactIcons {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+div.contactInfo {
     margin-bottom: 5rem;
 }
