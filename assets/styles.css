@@ -24,6 +24,16 @@ h4.aboutMe {
     margin: 5rem;
 }
 
+.aboutMeDesc {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5rem;
+}
+
+.aboutMeContainer {
+    align-items: center;
+}
+
 h4.Contact {
     color: #FCA083;
     font-family: 'Ubuntu', sans-serif;
@@ -98,7 +108,8 @@ div.lowerBody {
     top: 100vh;
     background: #ffffff;
     width: 100vw;
-    height: 2500px;
+    height: 100vh;
+    /* height: 2500px; */
 }
 
 div.flow-text {
@@ -130,4 +141,8 @@ a.contactIcons {
 
 div.contactInfo {
     margin-bottom: 5rem;
+}
+
+.contactIcons {
+    margin-top: 5rem;
 }
